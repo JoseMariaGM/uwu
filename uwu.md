@@ -138,26 +138,26 @@ k path=./ubuntu18.qcow2,size=8 --vcpus 1 --os-type generic --os-variant generic 
 9. **Creeu ara aquesta mateixa màquina virtual MenuetOS mitjançant l'entorn gràfic del virt-manager i arrenqueu-la. Indiqueu com l'heu configurat:** 
 - 1/4 Com volem instal.lar el sistema operatiu?
 
-        
+      Amb un arxiu .img
 
 - 2/4 Quin emmagatzematge has fet servir? Detalla'n el procés de creació.
 
-
+	Un floppy He clickat a l'opció floppy
 
 - 2/4 Quin tipus de sistema operatiu i versió has seleccionat?
-
-
+	
+	El generic. La versió generic. 
 
 - 3/4 Quanta memòria i fils de processador has seleccionat? Indica també el total físic que té la teva màquina
 
-
+	512MB i 1 fil del processador.  3'74GB i 2 fils.
 
 - 4/4 Quin és el nom que li has posat a la màquina?
 
-
+	Pastapizzagrazie
 
 - Heu hagut de realitzar algun canvi en el maquinari per defecte per tal que pogués arrencar?
 
-
+	Substituir el disk dur per un floppy. 
 
 10. **Creeu ara una màquina virtual Windows que faci servir per a la interfície de xarxa i de disc dur els controladors virtio. Indiqueu el procés seguits (passos)**
